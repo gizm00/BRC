@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 
 class Blog_Rec(models.Model):
-	user = models.ForeignKey(User)
+    user = models.ForeignKey(User)
     pub_date = models.DateTimeField()
     title = models.CharField(max_length=200)
     text = models.TextField()
