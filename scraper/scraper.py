@@ -1,4 +1,4 @@
-#scraper
+#rss scraper
 import feedparser
 from bs4 import BeautifulSoup, NavigableString
 import urllib2
